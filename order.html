@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Παραγγελία - YourCoolStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Φόρμα Παραγγελίας</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="products.html">Προϊόντα</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form action="https://formspree.io/f/xjkjvjjq" method="POST">
+      <h2>Στοιχεία Πελάτη</h2>
+      <input type="text" name="name" placeholder="Ονοματεπώνυμο" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="phone" placeholder="Τηλέφωνο" required>
+      <textarea name="orderDetails" placeholder="Γράψτε ποια προϊόντα θέλετε..." rows="5" required></textarea>
+      <button type="submit">Αποστολή Παραγγελίας</button>
+    </form>
+  </div>
+
+  <footer><p>© 2025 YourCoolStore</p></footer>
+</body>
+</html>
