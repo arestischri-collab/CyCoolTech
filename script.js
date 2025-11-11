@@ -6,21 +6,21 @@ const products = [
     id:1,
     name:"Επαγγελματικό Ψυγείο 400L",
     price:950,
-    img:"images/fridge1.jpg",
+    img:"images/fridge.jpg.png",
     desc:"Ισχυρό επαγγελματικό ψυγείο 400L."
   },
   {
     id:2,
     name:"Σαλατιέρα Inox 2-πόρτες",
     price:780,
-    img:"images/saladette1.jpg",
+    img:"images/fridge.jpg.png",
     desc:"Σαλατιέρα inox με 2 πόρτες."
   },
   {
     id:3,
     name:"Ψυγείο Βιτρίνα LED",
     price:640,
-    img:"images/display1.jpg",
+    img:"images/fridge.jpg.png",
     desc:"Ψυγείο βιτρίνα με LED."
   }
 ];
@@ -76,5 +76,6 @@ const products = [
   }
 
   
+
 
 
