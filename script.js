@@ -2,10 +2,29 @@
 
 // Παράδειγμα προϊόντων
 const products = [
-    { id: 1, name: "Επαγγελματικό Ψυγείο", price: 950, img: "images/fridge.jpg.png" },
-    { id: 2, name: "Σαλατιέρα Inox", price: 780, img: "images/fridge.jpg.png" },
-    { id: 3, name: "Ψυγείο Βιτρίνα", price: 640, img: "images/fridge.jpg.png" }
-  ];
+  {
+    id:1,
+    name:"Επαγγελματικό Ψυγείο 400L",
+    price:950,
+    img:"images/fridge1.jpg",
+    desc:"Ισχυρό επαγγελματικό ψυγείο 400L."
+  },
+  {
+    id:2,
+    name:"Σαλατιέρα Inox 2-πόρτες",
+    price:780,
+    img:"images/saladette1.jpg",
+    desc:"Σαλατιέρα inox με 2 πόρτες."
+  },
+  {
+    id:3,
+    name:"Ψυγείο Βιτρίνα LED",
+    price:640,
+    img:"images/display1.jpg",
+    desc:"Ψυγείο βιτρίνα με LED."
+  }
+];
+
   
   // --- Προβολή προϊόντων στη σελίδα products.html ---
   const list = document.getElementById("product-list");
@@ -57,4 +76,5 @@ const products = [
   }
 
   
+
 
