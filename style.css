@@ -12,3 +12,16 @@ button:hover { background:#005fa1; }
 footer { background:#0077c2; color:white; text-align:center; padding:15px; margin-top:30px; }
 input, textarea { width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; margin-bottom:10px; }
 form { background:white; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
+.company-header {
+  display: flex;          /* κείμενο και εικόνα στην ίδια γραμμή */
+  align-items: center;    /* ευθυγραμμίζει το κείμενο με την εικόνα */
+  justify-content: center;/* κεντράρει όλα στο header */
+  gap: 10px;              /* απόσταση ανάμεσα σε κείμενο και εικόνα */
+}
+
+.company-logo {
+  height: 35px;           /* μικραίνει το λογότυπο */
+  width: auto;            /* κρατάει τις αναλογίες σωστές */
+}
+
+
